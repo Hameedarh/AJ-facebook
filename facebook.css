@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Trebuchet MS;
+    background-color: rgb(213, 189, 214);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.back{
+    display: flex;
+    margin-top: 10%;
+    width: 80%;
+}
+.right{
+    flex: 5;
+}
+.open{
+    display: flex;
+    flex: 5;
+    align-items: center;
+    padding-bottom: 5%;
+    padding-top: 4%;
+}
+.fb h1{
+    color: rgb(161, 15, 141);
+    font-size: 4em;
+    line-height: 1.5em;
+}
+.fb h3{
+    font-family: Helvetica;
+    font-size: 1.5em;
+}
+.mid{
+    display: flex;
+    /* align-items: center; this works for the secondary axis */
+    justify-content: center;
+}
+
+.middle{
+    justify-content: center;
+    width: 20em;
+    color: rgb(171,206,228);
+    border: 1px solid white;
+    background-color: white;
+    height: 350px;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-shadow: 0px 7px 7px 7px;
+    border-radius: 10px;
+    line-height: 2.5em;
+}
+.middle h2{
+    text-align: center;
+}
+.middle h4{
+    text-align: center;
+}
+.input{
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 22em;
+}
+input:hover{
+    background-color: rgb(206, 84, 190);
+}
+.but{
+    border: 1px solid rgb(161, 15, 141);
+    margin-top: 7%;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(161, 15, 141);
+}
+.but:hover{
+    background-color: rgb(56, 7, 68);
+    cursor: pointer;
+}
+#sign{
+    padding: 7px;
+    font-family: Trebuchet MS;
+    color: white;
+    font-size: 3vmin;
+    /* background: transparent; */
+}
+hr{
+    width: 20em;
+}
+/* #sign:focus{
+    outline: 1px solid yellow;
+} */
+/* #sign{
+    inset;
+} */
+#reg a{
+    color: rgb(15, 120, 161);
+}
+p{
+    margin-top: 1.5em;
+    padding-left: 5em;
+}
+span{
+    font-weight: bolder;
+}
+#create{
+    border: 1px solid rgb(56, 7, 68);
+    margin-top: 3%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: rgb(56, 7, 68);
+    padding: 15px 20px;
+    margin-left: 5.5em;
+}
+#create a{
+    text-decoration: none;
+    color: white;
+}
+#create:hover{
+    background-color: rgb(161, 15, 141);
+}
+button{
+    font-family: Trebuchet MS;
+}
+
+@media screen and (max-width:650px){
+    .back{
+        display: grid;
+    }
+    .middle{
+        width: 15em;
+    }
+    .input{
+        width: 18em;
+    }
+    hr{
+        width: 15em;
+    }
+    .but{
+        width: 16em;
+    }
+    #create{
+        margin-left: 3.3em;
+    }
+}

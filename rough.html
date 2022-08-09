@@ -1,0 +1,46 @@
+<!-- // the console version -->
+
+// userNamePrompt = prompt("what's your username?")
+// passWordPrompt= prompt("enter your password")
+// let userName= userNamePrompt
+// let passWord= passWordPrompt
+// function isUserValid(username, password){
+//     for (var i= 0; i< database.length; i++){
+//         if (username === database[i].username && password=== database[i].password) {return true}
+// }
+// return false; 
+// }
+// function signIn(username, password){
+//     if (isUserValid(username, password) === true) {alert (newsfeed)}
+//     else{alert("incorrect parameters")}
+// }
+// signIn(userName, passWord)
+
+
+<!-- the first sample before linking the timeline to location -->
+// function signIn(username, password){
+    //     if (isUserValid(username, password) === true) {
+    //         for (var k=0; k<=newsfeed.length; k++){
+    //             if (us.value === newsfeed[k].username){alert(newsfeed[k].timeline)
+    //             break;
+    //         }
+    //         }
+    //         alert("Login successful")
+    //         location=("homepage.html")
+    //     }
+    
+    //     else{alert("incorrect parameters")}
+    // }
+    // signIn(userName, passWord)
+
+    var us = document.getElementById("user")
+us.addEventListener("keypress",function(event){
+    if (event.key==="Enter"){
+      // document.getElementById("butt")
+      if(us.value !== ''){
+        alert("saved")
+        // var x= document.createTextNode("username1");
+      }else{alert("enter your user name")}
+    }
+    
+  });

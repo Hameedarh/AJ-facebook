@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color:rgb(213, 189, 214);
+    font-family: Trebuchet MS;
+}
+#back{
+    background-color: rgb(56, 7, 68);
+    padding-bottom: 5px;
+}
+.col{
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(213, 189, 214);
+    font-family:Trebuchet MS;
+}
+.inpl{
+    margin-top: 8px;
+    margin-left: 8.4em;
+    width: 20%;
+}
+#face{
+    background-color: white;
+}
+.container{
+    width: 80%;
+    display: flex;
+    margin-left: 7em;
+}
+.left{
+    flex: 2;
+}
+.right{
+    flex: 6;
+    margin-top: 0.5%;
+}
+.pr{
+    border: 2px solid white;
+    border-radius: 3px;
+}
+.h3sp{
+    margin-top: 4%;
+}
+ul{
+    list-style-type: none;
+    margin-top: 7%;
+}
+li:hover{
+    color: brown;
+    font-weight: bolder;
+}
+#Create{
+    border: 1px solid rgb(56, 7, 68);
+    margin-top: 10%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-color: rgb(56, 7, 68);
+    padding: 15px 20px;
+    /* margin-left: 5.5em; */
+}
+#im{
+    width:800px;
+    height:300px;
+}
+.butdiv{
+    display: flex;
+    gap: 19em;
+    background-color: white;
+    width: 98%;
+}
+/* .flexen{
+    display: flex;
+} */
+.flexen button{
+    border: 1px solid rgb(56, 7, 68);
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    background-color: rgb(56, 7, 68);
+    padding: 7px 9em;
+    margin-left: 1em;
+}
+.flexen button:hover{
+    color: rgb(213, 189, 214);
+}
+.act button{
+    border: 1px solid rgb(233, 222, 222);
+    border-radius: 2px;
+    text-align: center;
+    color: black;
+    background-color: rgb(233, 222, 222);
+    padding: 5px 5px;
+}
+.fl-r-und{
+    display: flex;
+    /* gap: 10px; */
+}
+.und-rig{
+    flex: 6;
+}
+.und-lef{
+    flex: 10;
+}
+.stabar{
+    background-color: rgb(233, 222, 222);
+    width: 98%;
+    padding: 5px 10px;
+}
+.pub{
+    background-color: white;
+    width: 95%;
+    padding: 10px 10px;
+}
+.inp{
+    width: 80%;
+    border-style: none;
+}
+.write{
+    display: flex;
+    background-color: white;
+    padding: 10px 10px;
+    width: 98%;
+}
+.write2{
+    margin-top: 2%;
+    background-color: white;
+    padding: 10px 10px;
+    width: 98%;
+}
+.ite{
+    display: flex;
+    gap: 10px;
+    margin-top: 2%;
+}
+#nu{
+    display: flex;
+    gap: 10px;
+    margin-top: 2%;
+}
+hr{
+    width: 100%;
+}
+#inv{
+    margin-top: 2%;
+}
+button{
+    font-family: Trebuchet MS;
+}
+
+@media screen and (max-width: 800px){
+    body{
+        overflow-x: hidden;
+    }
+    .container, .fl-r-und{
+        display: grid;
+    }
+    
+    .butdiv{
+        width: 85%;
+        gap: 15%;
+    }
+    .flexen button{
+        padding: 2px 1em;
+        margin-left: 0;
+        margin-top: 2px;
+    }
+    .stabar, .pub, .write, .write2, #im{
+        width: 85%;
+    }
+}
+
+.fa {
+    font-size: 30px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .fa:hover {
+    color: brown;
+  }
